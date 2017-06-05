@@ -22,12 +22,16 @@ tf.reset_default_graph()
 
 
 ML_DATASET = "learning_vectors03.csv"
-
+"""
 X = pd.read_csv(ML_DATASET, usecols=['League_id', 'B365H' , 'B365D', 'B365A',
                                         'H_Speed', 'H_Pass' , 'H_Shoot' , 'H_Pressure',
                                         'H_chPass', 'H_chCross', 'H_dAggr', 'H_dWidth', 'A_Speed',
                                         'A_Pass','A_Shoot', 'A_Pressure', 'A_chPass', 'A_chCross',
                                         'A_dAggr', 'A_dWidth', 'H_age', 'A_age', 'H_TMV', 'A_TMV'])
+"""
+
+X = pd.read_csv(ML_DATASET, usecols=['B365H' , 'B365D', 'B365A'])
+
 
 Y = pd.read_csv(ML_DATASET, usecols=['Result'])
 
@@ -60,7 +64,7 @@ print(X_train, X_test, y_train, y_test)
 
 #Now Machine Learning staff:
 
-logs_path = "/home/domgor/PycharmProjects/MLFootba/results/011-deep5r0.0005b15e35-wideLayers"
+logs_path = "results/compare1/all"
 # config
 K = 200
 L = 100

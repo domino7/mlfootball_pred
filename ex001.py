@@ -20,18 +20,24 @@ Only 4 nparrays are needed but you don't get multhithreading and you can have he
 tf.reset_default_graph()
 
 # config
+
 batch_size = 10
 learning_rate = 0.003
 training_epochs = 120
-logs_path = "/home/domgor/PycharmProjects/MLFootba/results/004"
+
 
 ML_DATASET = "learning_vectors03.csv"
-
+"""
 X = pd.read_csv(ML_DATASET, usecols=['League_id', 'B365H' , 'B365D', 'B365A',
                                         'H_Speed', 'H_Pass' , 'H_Shoot' , 'H_Pressure',
                                         'H_chPass', 'H_chCross', 'H_dAggr', 'H_dWidth', 'A_Speed',
                                         'A_Pass','A_Shoot', 'A_Pressure', 'A_chPass', 'A_chCross',
                                         'A_dAggr', 'A_dWidth', 'H_age', 'A_age', 'H_TMV', 'A_TMV'])
+"""
+X = pd.read_csv(ML_DATASET, usecols=['H_age', 'A_age', 'H_TMV', 'A_TMV'])
+IN_FEATURES = 4
+logs_path = "results/compareSimple/004-transfermarkt"
+
 
 Y = pd.read_csv(ML_DATASET, usecols=['Result'])
 
@@ -66,13 +72,13 @@ y_test = np.asarray(oneHot)
 # input images
 with tf.name_scope('input'):
     # None -> batch size can be any size, 784 -> flattened mnist image
-    x = tf.placeholder(tf.float32, shape=[None, 24], name="x-input")
+    x = tf.placeholder(tf.float32, shape=[None, IN_FEATURES], name="x-input")
     # target 10 output classes
     y_ = tf.placeholder(tf.float32, shape=[None, 3], name="y-input")
 
 # model parameters will change during training so we use tf.Variable
 with tf.name_scope("weights"):
-    W = tf.Variable(tf.truncated_normal([24, 3], stddev=0.1))
+    W = tf.Variable(tf.truncated_normal([IN_FEATURES, 3], stddev=0.1))
 
 # bias
 with tf.name_scope("biases"):
