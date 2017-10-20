@@ -1,0 +1,35 @@
+### Data set 1 - bet356 and FIFA ###
+--- Simple comparison of ML algorithms ---
+LR: 0.542928 (0.014825)
+LDA: 0.539474 (0.016910)
+KNN: 0.440625 (0.018806)
+CART: 0.417763 (0.037711)
+NB: 0.453618 (0.019617)
+SVM: 0.470230 (0.016889)
+
+### Data set 2 - FIFA and transfermarkt ##
+--- Simple comparison of ML algorithms ---
+LR: 0.533388 (0.013519)
+LDA: 0.534539 (0.013908)
+KNN: 0.480263 (0.006997)
+CART: 0.393914 (0.040177)
+NB: 0.500329 (0.032026)
+SVM: 0.472862 (0.019853)
+
+### Data set 3 - transfermarkt ###
+--- Simple comparison of ML algorithms ---
+LR: 0.534868 (0.017924)
+LDA: 0.535691 (0.018067)
+KNN: 0.471711 (0.003663)
+CART: 0.420230 (0.010947)
+NB: 0.523355 (0.016411)
+SVM: 0.460691 (0.014162)
+
+### Data set 4 - transfermarkt and shots ###
+--- Simple comparison of ML algorithms ---
+LR: 0.580493 (0.033305)
+LDA: 0.576868 (0.032077)
+KNN: 0.489702 (0.010182)
+CART: 0.464498 (0.034649)
+NB: 0.519860 (0.033785)
+SVM: 0.472564 (0.020077)
