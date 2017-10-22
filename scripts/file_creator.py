@@ -14,6 +14,11 @@ MATCH_ID_H = 'Match_id'
 ENG_LEAGUE_ID = '1729'
 SPAN_LEAGUE_ID = '21518'
 
+# home win  - 0
+# draw      - 1
+# away win  - 2
+RESULTS = {0 : "h_win", 1 : "draw", 2 : "a_win", '0' : "h_win", '1' : "draw", '2' : "a_win"}
+
 # Improved, now gets the reverse sort
 # If not enough matches are available -returns empty list
 # TODO: Change ID to data sort
@@ -31,24 +36,24 @@ def getLastNMatchesOfATeam(data, teamName, N, match_id):
 # ARGUMENTS:
 # - matches     : a limited set of matches 
 # - team_name   : name of the team taken into calculation
-def calculateForm(matches, team_name):
+def calculateForm(matches, team_name, win_worth, draw_worth, loose_worth):
     form = 0
     for row in matches:
         result = RESULTS[row[RESULT_H]]
         if (row[H_NAME_H] == team_name):
             if result == 'h_win':
-                form += 3
+                form += win_worth
             elif result == 'draw':
-                form += 1
+                form += draw_worth
             elif result == 'a_win':
-                form += 0
+                form += loose_worth
         elif(row[A_NAME_H] == team_name):
             if result == 'h_win':
-                form += 0
+                form += loose_worth
             elif result == 'draw':
-                form += 1
+                form += draw_worth
             elif result == 'a_win':
-                form += 3
+                form += win_worth
     return form
 
 # Calculate the (weighted) mean of values
@@ -209,7 +214,27 @@ if __name__ == "__main__":
                 new_value = float(data[idx][first_header_name]) - float(data[idx][second_header_nme])
                 new_data[idx][new_param_home] = new_value
         elif choice == 5:
-            print "TBA"
+            print "Provide a name for the new parameter(HOME):"
+            new_name_home = raw_input(">> ")
+            print "Provide a name for the new parameter(AWAY):"
+            new_name_away = raw_input(">> ")
+            print "How many matches whould I take into consideration?"
+            no_matches = int(raw_input(">> "))
+            print "How much should be a win worth?:"
+            win_worth = float(raw_input(">> "))
+            print "How much should be a draw worth?:"
+            draw_worth = float(raw_input(">> "))
+            print "How much should be a loose worth?:"
+            loose_worth = float(raw_input(">> "))
+            for row in new_data:
+                home_team_matches = getLastNMatchesOfATeam(data, row[H_NAME_H], no_matches, row[MATCH_ID_H])
+                away_team_matches = getLastNMatchesOfATeam(data, row[A_NAME_H], no_matches, row[MATCH_ID_H])
+                new_home_value = calculateForm(home_team_matches, row[H_NAME_H], win_worth, draw_worth, loose_worth)
+                new_away_value = calculateForm(away_team_matches, row[A_NAME_H], win_worth, draw_worth, loose_worth)
+                row[new_name_home] = new_home_value
+                row[new_name_away] = new_away_value
+            new_headers.append(new_name_home)
+            new_headers.append(new_name_away)
         else:
             print "Sorry, I don't recognize that option"
 
