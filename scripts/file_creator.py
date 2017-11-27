@@ -36,51 +36,53 @@ def getLastNMatchesOfATeam(data, teamName, N, match_id):
 # ARGUMENTS:
 # - matches     : a limited set of matches 
 # - team_name   : name of the team taken into calculation
-def calculateForm(matches, team_name, win_worth, draw_worth, loose_worth):
+def calculateForm(matches, team_name, weights):
+    if len(matches) < 2:
+      return "Nan"
     form = 0
     for row in matches:
         result = RESULTS[row[RESULT_H]]
         if (row[H_NAME_H] == team_name):
             if result == 'h_win':
-                form += win_worth
+                form += 3
             elif result == 'draw':
-                form += draw_worth
+                form += 1
             elif result == 'a_win':
-                form += loose_worth
+                form += 0
         elif(row[A_NAME_H] == team_name):
             if result == 'h_win':
-                form += loose_worth
+                form += 0
             elif result == 'draw':
-                form += draw_worth
+                form += 1
             elif result == 'a_win':
-                form += win_worth
+                form += 3
     return form
 
 # Calculate the (weighted) mean of values
 # If receives empty list - returns NA
-def calculateMean(matches, team_name, attr_name_home, attr_name_away):
-    if len(matches) == 0:
-        return "NA"
+def calculateMean(matches, team_name, attr_name_home, attr_name_away, weights=[1,1,1,1,1,1,1,1,1,1]):
+    if len(matches) < 2:
+        return "Nan"
     total = 0
     for row in matches:
         if row[H_NAME_H] == team_name:
-            total += float(row[attr_name_home])
+            total += float(row[attr_name_home])  * weights[x]
         elif row[A_NAME_H] == team_name:
-            total += float(row[attr_name_away])
-    return (total / len(matches))          
+            total += float(row[attr_name_away])  * weights[x]
+    return  total / sum(weights[0:x])          
 
 # Calculate the (weighted) sum of values
 # If receives empty list - returns NA
-def calculateSum(matches, team_name, attr_name_home, attr_name_away):
-    if len(matches) == 0:
-        return "NA"
+def calculateSum(matches, team_name, attr_name_home, attr_name_away, weights=[1,1,1,1,1,1,1,1,1,1]):
+    if len(matches) < 2:
+        return "Nan"
     total = 0
     for row in matches:
         if row[H_NAME_H] == team_name:
-            total += float(row[attr_name_home])
+            total += float(row[attr_name_home])  * weights[x]
         elif row[A_NAME_H] == team_name:
-            total += float(row[attr_name_away])
-    return total
+            total += float(row[attr_name_away])  * weights[x]
+    return  total / sum(weights[0:x]) 
 
 # Load CSV file with given name
 def loadCSVFile(filename):
