@@ -1,0 +1,3 @@
+[submodule "crawlers"]
+	path = crawlers
+	url = https://github.com/tschesky/crawlers
