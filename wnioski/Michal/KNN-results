@@ -1,0 +1,242 @@
+Estymacja pojedynczym parametrem dla całego zbioru danych:
+-----------------------------------------------------------
+
+  ---FTHG and FTAG--- 
+   mean: 0.998352824504    std: (0.00290070580504) 
+
+  ---HST and AST--- 
+   mean: 0.503282302219    std: (0.0142394119074) 
+
+  ---H_WeightedMeanFullTimeGoals05 and A_WeightedMeanFullTimeGoals05--- 
+   mean: 0.476486874665    std: (0.00902697593447) 
+
+  ---H_WeightedMeanShots03 and A_WeightedMeanShots03--- 
+   mean: 0.474192228772    std: (0.01779154723) 
+
+  ---H_WeightedMeanShotsOnTarget05 and A_WeightedMeanShotsOnTarget05--- 
+   mean: 0.468265083846    std: (0.0125909039283) 
+
+  ---H_TMV and A_TMV--- 
+   mean: 0.465459963686    std: (0.010688131798) 
+
+  ---H_MeanShotsOnTarget03 and A_MeanShotsOnTarget03--- 
+   mean: 0.465303743978    std: (0.0111071055483) 
+
+  ---H_WeightedMeanShots05 and A_WeightedMeanShots05--- 
+   mean: 0.463333027654    std: (0.0153081261487) 
+
+  ---H_MeanShotsOnTarget05 and A_MeanShotsOnTarget05--- 
+   mean: 0.461688019182    std: (0.0144069917832) 
+
+  ---H_MeanShots05 and A_MeanShots05--- 
+   mean: 0.458399893626    std: (0.0191464628816) 
+
+  ---H_MeanShots03 and A_MeanShots03--- 
+   mean: 0.456920716319    std: (0.0169306740202) 
+
+  ---H_WeightedMeanShotsOnTarget03 and A_WeightedMeanShotsOnTarget03--- 
+   mean: 0.45362501319   std: (0.00950474837298) 
+
+  ---H_WeightedMeanFullTimeGoals03 and A_WeightedMeanFullTimeGoals03--- 
+   mean: 0.451818638743    std: (0.0168748539579) 
+
+  ---H_Form05 and A_Form05--- 
+   mean: 0.44900607816   std: (0.0104935213913) 
+
+  ---H_MeanFullTimeGoals05 and A_MeanFullTimeGoals05--- 
+   mean: 0.440614808549    std: (0.0200392763876) 
+
+  ---HS and AS--- 
+   mean: 0.436836639943    std: (0.00766603916815) 
+
+  ---H_age and A_age--- 
+   mean: 0.423355741627    std: (0.00922156986223) 
+
+  ---H_MeanFullTimeGoals03 and A_MeanFullTimeGoals03--- 
+   mean: 0.421879536881    std: (0.0130669969404) 
+
+  ---H_Form03 and A_Form03--- 
+   mean: 0.417267650861    std: (0.0227028994592) 
+
+Porównanie różnych algorytmów dla całego zbioru danych:
+--------------------------------------------------------
+
+  LR: 0.495163 (0.023165)
+  LDA: 0.496150 (0.022808)
+  KNN: 0.447976 (0.016464)
+  CART: 0.446002 (0.015222)
+  NB: 0.493189 (0.027111)
+  SVM: 0.476999 (0.019115)
+  Multinomial NB: 0.471866 (0.023126)
+  Bernoulli NB: 0.473445 (0.022740)
+  Perceptron: 0.350444 (0.098388)
+  SGD: 0.362883 (0.076002)
+  PassiveAggresive: 0.424087 (0.068469)
+  MLP Classifier: 0.494965 (0.024735)
+  Randomized search for best parameters
+
+
+Najlepszy klasyfikator z RandomSearcha:
+----------------------------------------
+
+  0.525657894737% - best=KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='manhattan',
+             metric_params=None, n_jobs=1, n_neighbors=194, p=8,
+             weights='uniform')
+
+Predykcja najlepszym modelem dla danych sezon po sezonie:
+----------------------------------------------------------
+
+Premiere league
+
+  ---2012/2013---
+  2012/2013: 0.468601 (0.026496)
+
+  ---2011/2012---
+  2011/2012: 0.447471 (0.009652)
+
+  ---2008/2009---
+  2008/2009: 0.492242 (0.024619)
+
+  ---2015/2016---
+  2015/2016: 0.413259 (0.003869)
+
+  ---2013/2014---
+  2013/2014: 0.494604 (0.025587)
+
+  ---2009/2010---
+  2009/2010: 0.507970 (0.006512)
+
+  ---2014/2015---
+  2014/2015: 0.457996 (0.013739)
+
+  ---2010/2011---
+  2010/2011: 0.471047 (0.005295)
+
+Laliga
+
+  ---2012/2013---
+  2012/2013: 0.500139 (0.010112)
+
+  ---2011/2012---
+  2011/2012: 0.494872 (0.006281)
+
+  ---2008/2009---
+  2008/2009: 0.484392 (0.007311)
+
+  ---2015/2016---
+  2015/2016: 0.492582 (0.023793)
+
+  ---2013/2014---
+  2013/2014: 0.502135 (0.034597)
+
+  ---2009/2010---
+  2009/2010: 0.510603 (0.005310)
+
+  ---2014/2015---
+  2014/2015: 0.534495 (0.043243)
+
+  ---2010/2011---
+  2010/2011: 0.521206 (0.009142)
+
+Random search sezon po sezonie (dla porównania):
+------------------------------------------------
+
+Premiere league
+
+  ---2012/2013---
+  0.531578947368% - 2012/2013=KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='euclidean',
+             metric_params=None, n_jobs=1, n_neighbors=22, p=17,
+             weights='uniform')
+  2012/2013: 0.510664 (0.034249)
+
+  ---2011/2012---
+  0.523684210526% - 2011/2012=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='chebyshev',
+             metric_params=None, n_jobs=1, n_neighbors=11, p=14,
+             weights='uniform')
+  2011/2012: 0.492005 (0.037457)
+
+  ---2008/2009---
+  0.544736842105% - 2008/2009=KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='manhattan',
+             metric_params=None, n_jobs=1, n_neighbors=74, p=5,
+             weights='distance')
+  2008/2009: 0.529403 (0.044043)
+
+  ---2015/2016---
+  0.452631578947% - 2015/2016=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+             metric_params=None, n_jobs=1, n_neighbors=22, p=13,
+             weights='uniform')
+  2015/2016: 0.426878 (0.040527)
+
+  ---2013/2014---
+  0.568421052632% - 2013/2014=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+             metric_params=None, n_jobs=1, n_neighbors=48, p=18,
+             weights='distance')
+  2013/2014: 0.565843 (0.019424)
+
+  ---2009/2010---
+  0.557894736842% - 2009/2010=KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='euclidean',
+             metric_params=None, n_jobs=1, n_neighbors=15, p=8,
+             weights='uniform')
+  2009/2010: 0.534318 (0.025531)
+
+  ---2014/2015---
+  0.534210526316% - 2014/2015=KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='chebyshev',
+             metric_params=None, n_jobs=1, n_neighbors=19, p=3,
+             weights='distance')
+  2014/2015: 0.523861 (0.039037)
+
+  ---2010/2011---
+  0.515789473684% - 2010/2011=KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='euclidean',
+             metric_params=None, n_jobs=1, n_neighbors=54, p=7,
+             weights='distance')
+  2010/2011: 0.471155 (0.029517)
+
+Laliga
+
+  ---2012/2013---
+  0.586842105263% - 2012/2013=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='chebyshev',
+             metric_params=None, n_jobs=1, n_neighbors=70, p=15,
+             weights='distance')
+  2012/2013: 0.578967 (0.020764)
+
+  ---2011/2012---
+  0.557894736842% - 2011/2012=KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='euclidean',
+             metric_params=None, n_jobs=1, n_neighbors=46, p=6,
+             weights='uniform')
+  2011/2012: 0.550261 (0.022868)
+
+  ---2008/2009---
+  0.542105263158% - 2008/2009=KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='manhattan',
+             metric_params=None, n_jobs=1, n_neighbors=24, p=15,
+             weights='uniform')
+  2008/2009: 0.510106 (0.051851)
+
+  ---2015/2016---
+  0.552631578947% - 2015/2016=KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='manhattan',
+             metric_params=None, n_jobs=1, n_neighbors=32, p=4,
+             weights='distance')
+  2015/2016: 0.560919 (0.047144)
+
+  ---2013/2014---
+  0.534210526316% - 2013/2014=KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='manhattan',
+             metric_params=None, n_jobs=1, n_neighbors=14, p=9,
+             weights='uniform')
+  2013/2014: 0.534146 (0.038262)
+
+  ---2009/2010---
+  0.576315789474% - 2009/2010=KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='chebyshev',
+             metric_params=None, n_jobs=1, n_neighbors=37, p=19,
+             weights='distance')
+  2009/2010: 0.552600 (0.020762)
+
+  ---2014/2015---
+  0.552631578947% - 2014/2015=KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='manhattan',
+             metric_params=None, n_jobs=1, n_neighbors=118, p=3,
+             weights='distance')
+  2014/2015: 0.537090 (0.022684)
+
+  ---2010/2011---
+  0.623684210526% - 2010/2011=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='euclidean',
+             metric_params=None, n_jobs=1, n_neighbors=27, p=15,
+             weights='distance')
+  2010/2011: 0.615817 (0.019885)
