@@ -1,0 +1,20 @@
+--- Basic comparison of algorithms  ---
+Algo: 	res.mean: 	res.std:
+LR  	0.535362 	(0.013087)
+LDA  	0.532401 	(0.016659)
+KNN  	0.477138 	(0.003733)
+CART  	0.420066 	(0.007537)
+NB  	0.510362 	(0.005551)
+SVM  	0.466776 	(0.009122)
+
+
+--- Basic comparison with preprocessing  ---
+Algo: 	res.mean: 	res.std:
+LR  	0.536842 	(0.012833)
+LDA  	0.534704 	(0.008022)
+KNN  	0.476151 	(0.005061)
+CART  	0.424507 	(0.023493)
+NB  	0.512664 	(0.006196)
+SVM  	0.533553 	(0.011888)
+
+
