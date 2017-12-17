@@ -1,0 +1,126 @@
+--------------------------------------------------------------------
+SVM final result - version5-complete.csv
+(mean, std): (0.530, 0.009)
+--------------------------------------------------------------------
+single predictor comparision:
+H_Pass (mean, std): (0.470, 0.011)
+H_Shoot (mean, std): (0.475, 0.009)
+H_Pressure (mean, std): (0.473, 0.010)
+H_chPass (mean, std): (0.472, 0.008)
+H_chCross (mean, std): (0.474, 0.011)
+H_dAggr (mean, std): (0.471, 0.010)
+H_dWidth (mean, std): (0.473, 0.010)
+A_Speed (mean, std): (0.472, 0.009)
+A_Pass (mean, std): (0.473, 0.013)
+A_Shoot (mean, std): (0.476, 0.009)
+A_Pressure (mean, std): (0.474, 0.008)
+A_chPass (mean, std): (0.476, 0.009)
+A_chCross (mean, std): (0.472, 0.010)
+A_dAggr (mean, std): (0.473, 0.008)
+A_dWidth (mean, std): (0.473, 0.010)
+H_age (mean, std): (0.472, 0.008)
+A_age (mean, std): (0.473, 0.010)
+H_TMV (mean, std): (0.476, 0.008)
+A_TMV (mean, std): (0.521, 0.010)  <<<<<<<<<<
+H_Form03 (mean, std): (0.474, 0.009)
+A_Form03 (mean, std): (0.473, 0.009)
+H_Form05 (mean, std): (0.473, 0.008)
+A_Form05 (mean, std): (0.473, 0.009)
+H_MeanShots03 (mean, std): (0.472, 0.010)
+A_MeanShots03 (mean, std): (0.513, 0.009) <<<<<<<<<<
+H_MeanShots05 (mean, std): (0.472, 0.011)
+A_MeanShots05 (mean, std): (0.505, 0.019) <<<<<<<<<<
+H_MeanShotsOnTarget03 (mean, std): (0.476, 0.011)
+A_MeanShotsOnTarget03 (mean, std): (0.476, 0.009)
+H_MeanShotsOnTarget05 (mean, std): (0.471, 0.009)
+A_MeanShotsOnTarget05 (mean, std): (0.474, 0.010)
+H_MeanFullTimeGoals03 (mean, std): (0.473, 0.011)
+A_MeanFullTimeGoals03 (mean, std): (0.472, 0.011)
+H_MeanFullTimeGoals05 (mean, std): (0.471, 0.009)
+A_MeanFullTimeGoals05 (mean, std): (0.472, 0.009)
+H_WeightedMeanShots03 (mean, std): (0.475, 0.009)
+A_WeightedMeanShots03 (mean, std): (0.514, 0.008) <<<<<<<<<<
+H_WeightedMeanShots05 (mean, std): (0.473, 0.010)
+A_WeightedMeanShots05 (mean, std): (0.513, 0.009) <<<<<<<<<<
+H_WeightedMeanShotsOnTarget03 (mean, std): (0.474, 0.010)
+A_WeightedMeanShotsOnTarget03 (mean, std): (0.470, 0.011)
+H_WeightedMeanShotsOnTarget05 (mean, std): (0.471, 0.008)
+A_WeightedMeanShotsOnTarget05 (mean, std): (0.474, 0.008)
+H_WeightedMeanFullTimeGoals03 (mean, std): (0.474, 0.009)
+A_WeightedMeanFullTimeGoals03 (mean, std): (0.471, 0.009)
+H_WeightedMeanFullTimeGoals05 (mean, std): (0.474, 0.010)
+A_WeightedMeanFullTimeGoals05 (mean, std): (0.472, 0.008)
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Dla poszczególnych lig:
+1729 - angielska
+21518 - hiszpańska
+--------------------------------------------------------------------
+1. model (uczony i testowany) osobno na każdej lidze (380 wektorów)
+2008/2009 1729 (mean, std): (0.516, 0.039) <<<<<<<<<<
+2008/2009 21518 (mean, std): (0.475, 0.037)
+2009/2010 1729 (mean, std): (0.495, 0.042)
+2009/2010 21518 (mean, std): (0.521, 0.037) <<<<<<<<<<
+2010/2011 1729 (mean, std): (0.418, 0.034)
+2010/2011 21518 (mean, std): (0.558, 0.042) <<<<<<<<<<<<<<<<<<<<
+2011/2012 1729 (mean, std): (0.475, 0.031)
+2011/2012 21518 (mean, std): (0.472, 0.044)
+2012/2013 1729 (mean, std): (0.486, 0.036)
+2012/2013 21518 (mean, std): (0.468, 0.040)
+2013/2014 1729 (mean, std): (0.510, 0.046) <<<<<<<<<<
+2013/2014 21518 (mean, std): (0.471, 0.033)
+2014/2015 1729 (mean, std): (0.460, 0.031)
+2014/2015 21518 (mean, std): (0.514, 0.043) <<<<<<<<<<
+2015/2016 1729 (mean, std): (0.444, 0.039)
+2015/2016 21518 (mean, std): (0.486, 0.043)
+-------
+2.model uczony na całości, testowany na każdej lidze oddzielnie
+2008/2009 1729 (mean, std): (0.541, 0.036)
+2008/2009 21518 (mean, std): (0.535, 0.037)
+2009/2010 1729 (mean, std): (0.556, 0.037)
+2009/2010 21518 (mean, std): (0.557, 0.037)
+2010/2011 1729 (mean, std): (0.487, 0.041) <<<<<<<<<< ;(
+2010/2011 21518 (mean, std): (0.580, 0.038) <<<<<<<<<<
+2011/2012 1729 (mean, std): (0.505, 0.043)
+2011/2012 21518 (mean, std): (0.546, 0.039)
+2012/2013 1729 (mean, std): (0.531, 0.049)
+2012/2013 21518 (mean, std): (0.542, 0.043)
+2013/2014 1729 (mean, std): (0.554, 0.045)
+2013/2014 21518 (mean, std): (0.523, 0.034)
+2014/2015 1729 (mean, std): (0.529, 0.036)
+2014/2015 21518 (mean, std): (0.515, 0.037)
+2015/2016 1729 (mean, std): (0.433, 0.043) <<<<<<<<<< ;(
+2015/2016 21518 (mean, std): (0.546, 0.039)
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+SVM final result - version5-complete.csv - DIFFRENCE
+(mean, std): (0.533, 0.009)
+---------------------------------------
+single predictor comparision:
+diff_Pass (mean, std): (0.475, 0.009)
+diff_Shoot (mean, std): (0.472, 0.011)
+diff_Pressure (mean, std): (0.473, 0.009)
+diff_chPass (mean, std): (0.471, 0.011)
+diff_chCross (mean, std): (0.475, 0.011)
+diff_dAggr (mean, std): (0.472, 0.008)
+diff_dWidth (mean, std): (0.474, 0.009)
+diff_age (mean, std): (0.475, 0.010)
+diff_TMV (mean, std): (0.531, 0.010) <<<<<<<<<<
+diff_Form03 (mean, std): (0.471, 0.008)
+diff_Form05 (mean, std): (0.473, 0.010)
+diff_MeanShots03 (mean, std): (0.517, 0.009) <<<<<<<<<<
+diff_MeanShots05 (mean, std): (0.503, 0.015) <<<<<<<<<<
+diff_MeanShotsOnTarget03 (mean, std): (0.502, 0.017) <<<<<<<<<<
+diff_MeanShotsOnTarget05 (mean, std): (0.478, 0.016)
+diff_MeanFullTimeGoals03 (mean, std): (0.475, 0.011)
+diff_MeanFullTimeGoals05 (mean, std): (0.474, 0.009)
+diff_WeightedMeanShots03 (mean, std): (0.512, 0.012) <<<<<<<<<<
+diff_WeightedMeanShots05 (mean, std): (0.510, 0.009) <<<<<<<<<<
+diff_WeightedMeanShotsOnTarget03 (mean, std): (0.495, 0.021)
+diff_WeightedMeanShotsOnTarget05 (mean, std): (0.484, 0.017)
+diff_WeightedMeanFullTimeGoals03 (mean, std): (0.474, 0.010)
+diff_WeightedMeanFullTimeGoals05 (mean, std): (0.471, 0.011)
+
+
