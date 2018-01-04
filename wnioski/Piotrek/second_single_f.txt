@@ -1,0 +1,310 @@
+
+
+Features: H_Speed, A_Speed
+RandomizedSearchCV took 0.57 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.47122 (std: 0.00553)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 1: Mean validation score: 0.47122 (std: 0.00553)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 1: Mean validation score: 0.47122 (std: 0.00553)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 1: Mean validation score: 0.47122 (std: 0.00553)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 1: Mean validation score: 0.47122 (std: 0.00553)
+Params: {'criterion': 'gini', 'max_depth': 3}
+
+
+Features: H_Pass, A_Pass
+RandomizedSearchCV took 0.55 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.48503 (std: 0.01842)
+Params: {'criterion': 'entropy', 'max_depth': 3}
+Rank 2: Mean validation score: 0.48470 (std: 0.01753)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 3: Mean validation score: 0.48191 (std: 0.01731)
+Params: {'criterion': 'gini', 'max_depth': 7}
+Rank 3: Mean validation score: 0.48191 (std: 0.01731)
+Params: {'criterion': 'gini', 'max_depth': 7}
+
+
+Features: A_Shoot, H_Shoot
+RandomizedSearchCV took 0.59 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.47928 (std: 0.01174)
+Params: {'criterion': 'entropy', 'max_depth': 3}
+Rank 1: Mean validation score: 0.47928 (std: 0.01174)
+Params: {'criterion': 'entropy', 'max_depth': 3}
+Rank 3: Mean validation score: 0.47895 (std: 0.01248)
+Params: {'criterion': 'gini', 'max_depth': 3}
+
+
+Features: H_Pressure, A_Pressure
+RandomizedSearchCV took 0.61 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.47928 (std: 0.01745)
+Params: {'criterion': 'gini', 'max_depth': 5}
+Rank 1: Mean validation score: 0.47928 (std: 0.01745)
+Params: {'criterion': 'gini', 'max_depth': 5}
+Rank 3: Mean validation score: 0.47878 (std: 0.02189)
+Params: {'criterion': 'entropy', 'max_depth': 4}
+
+
+Features: H_chPass, A_chPass
+RandomizedSearchCV took 0.53 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.47319 (std: 0.02685)
+Params: {'criterion': 'gini', 'max_depth': 5}
+Rank 1: Mean validation score: 0.47319 (std: 0.02685)
+Params: {'criterion': 'gini', 'max_depth': 5}
+Rank 1: Mean validation score: 0.47319 (std: 0.02685)
+Params: {'criterion': 'gini', 'max_depth': 5}
+
+
+Features: H_chCross, A_chCross
+RandomizedSearchCV took 0.52 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.47911 (std: 0.01373)
+Params: {'criterion': 'gini', 'max_depth': 4}
+Rank 2: Mean validation score: 0.47730 (std: 0.01345)
+Params: {'criterion': 'gini', 'max_depth': 2}
+Rank 2: Mean validation score: 0.47730 (std: 0.01345)
+Params: {'criterion': 'gini', 'max_depth': 2}
+Rank 2: Mean validation score: 0.47730 (std: 0.01345)
+Params: {'criterion': 'gini', 'max_depth': 2}
+
+
+Features: H_dAggr, A_dAggr
+RandomizedSearchCV took 0.51 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.48043 (std: 0.01661)
+Params: {'criterion': 'entropy', 'max_depth': 5}
+Rank 1: Mean validation score: 0.48043 (std: 0.01661)
+Params: {'criterion': 'entropy', 'max_depth': 5}
+Rank 3: Mean validation score: 0.48026 (std: 0.01668)
+Params: {'criterion': 'entropy', 'max_depth': 5}
+Rank 3: Mean validation score: 0.48026 (std: 0.01668)
+Params: {'criterion': 'entropy', 'max_depth': 5}
+Rank 3: Mean validation score: 0.48026 (std: 0.01668)
+Params: {'criterion': 'entropy', 'max_depth': 5}
+
+
+Features: H_dWidth, A_dWidth
+RandomizedSearchCV took 0.49 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.47747 (std: 0.01363)
+Params: {'criterion': 'entropy', 'max_depth': 5}
+Rank 2: Mean validation score: 0.47615 (std: 0.01150)
+Params: {'criterion': 'gini', 'max_depth': 5}
+Rank 2: Mean validation score: 0.47615 (std: 0.01150)
+Params: {'criterion': 'gini', 'max_depth': 5}
+
+
+Features: H_age, A_age
+RandomizedSearchCV took 0.49 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.47155 (std: 0.01551)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 1: Mean validation score: 0.47155 (std: 0.01551)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 1: Mean validation score: 0.47155 (std: 0.01551)
+Params: {'criterion': 'gini', 'max_depth': 3}
+
+
+Features: H_TMV, A_TMV
+RandomizedSearchCV took 0.64 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.53273 (std: 0.01762)
+Params: {'criterion': 'entropy', 'max_depth': 5}
+Rank 1: Mean validation score: 0.53273 (std: 0.01661)
+Params: {'criterion': 'gini', 'max_depth': 2}
+Rank 3: Mean validation score: 0.53240 (std: 0.01659)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 3: Mean validation score: 0.53240 (std: 0.01659)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 3: Mean validation score: 0.53240 (std: 0.01659)
+Params: {'criterion': 'gini', 'max_depth': 3}
+
+
+Features: H_Form03, A_Form03
+RandomizedSearchCV took 0.49 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.47319 (std: 0.01495)
+Params: {'criterion': 'gini', 'max_depth': 4}
+Rank 1: Mean validation score: 0.47319 (std: 0.01495)
+Params: {'criterion': 'gini', 'max_depth': 4}
+Rank 3: Mean validation score: 0.47286 (std: 0.01542)
+Params: {'criterion': 'entropy', 'max_depth': 4}
+Rank 3: Mean validation score: 0.47286 (std: 0.01542)
+Params: {'criterion': 'entropy', 'max_depth': 4}
+
+
+Features: H_Form05, A_Form05
+RandomizedSearchCV took 0.51 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.49868 (std: 0.01150)
+Params: {'criterion': 'gini', 'max_depth': 2}
+Rank 1: Mean validation score: 0.49868 (std: 0.01150)
+Params: {'criterion': 'gini', 'max_depth': 2}
+Rank 1: Mean validation score: 0.49868 (std: 0.01150)
+Params: {'criterion': 'entropy', 'max_depth': 2}
+
+
+Features: H_MeanShots03, A_MeanShots03
+RandomizedSearchCV took 0.62 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.51809 (std: 0.01062)
+Params: {'criterion': 'entropy', 'max_depth': 2}
+Rank 1: Mean validation score: 0.51809 (std: 0.01062)
+Params: {'criterion': 'gini', 'max_depth': 2}
+Rank 3: Mean validation score: 0.51661 (std: 0.00892)
+Params: {'criterion': 'entropy', 'max_depth': 5}
+
+
+Features: H_MeanShots05, A_MeanShots05
+RandomizedSearchCV took 0.61 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.51414 (std: 0.00754)
+Params: {'criterion': 'gini', 'max_depth': 5}
+Rank 1: Mean validation score: 0.51414 (std: 0.00754)
+Params: {'criterion': 'gini', 'max_depth': 5}
+Rank 1: Mean validation score: 0.51414 (std: 0.00754)
+Params: {'criterion': 'gini', 'max_depth': 5}
+
+
+Features: H_MeanShotsOnTarget03, A_MeanShotsOnTarget03
+RandomizedSearchCV took 0.59 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.50954 (std: 0.01277)
+Params: {'criterion': 'gini', 'max_depth': 6}
+Rank 1: Mean validation score: 0.50954 (std: 0.01277)
+Params: {'criterion': 'gini', 'max_depth': 6}
+Rank 3: Mean validation score: 0.50773 (std: 0.01788)
+Params: {'criterion': 'entropy', 'max_depth': 2}
+Rank 3: Mean validation score: 0.50773 (std: 0.01788)
+Params: {'criterion': 'gini', 'max_depth': 2}
+Rank 3: Mean validation score: 0.50773 (std: 0.01788)
+Params: {'criterion': 'gini', 'max_depth': 2}
+Rank 3: Mean validation score: 0.50773 (std: 0.01788)
+Params: {'criterion': 'gini', 'max_depth': 2}
+Rank 3: Mean validation score: 0.50773 (std: 0.01788)
+Params: {'criterion': 'gini', 'max_depth': 2}
+
+
+Features: H_MeanShotsOnTarget05, A_MeanShotsOnTarget05
+RandomizedSearchCV took 0.61 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.51612 (std: 0.01683)
+Params: {'criterion': 'entropy', 'max_depth': 3}
+Rank 1: Mean validation score: 0.51612 (std: 0.01683)
+Params: {'criterion': 'entropy', 'max_depth': 3}
+Rank 1: Mean validation score: 0.51612 (std: 0.01683)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 1: Mean validation score: 0.51612 (std: 0.01683)
+Params: {'criterion': 'entropy', 'max_depth': 3}
+Rank 1: Mean validation score: 0.51612 (std: 0.01683)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 1: Mean validation score: 0.51612 (std: 0.01683)
+Params: {'criterion': 'gini', 'max_depth': 3}
+
+
+Features: H_MeanFullTimeGoals03, A_MeanFullTimeGoals03
+RandomizedSearchCV took 0.45 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.49309 (std: 0.01815)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 1: Mean validation score: 0.49309 (std: 0.01815)
+Params: {'criterion': 'entropy', 'max_depth': 3}
+Rank 1: Mean validation score: 0.49309 (std: 0.01815)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 1: Mean validation score: 0.49309 (std: 0.01815)
+Params: {'criterion': 'gini', 'max_depth': 3}
+
+
+Features: H_MeanFullTimeGoals05, A_MeanFullTimeGoals05
+RandomizedSearchCV took 0.49 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.50428 (std: 0.01492)
+Params: {'criterion': 'gini', 'max_depth': 4}
+Rank 1: Mean validation score: 0.50428 (std: 0.01492)
+Params: {'criterion': 'gini', 'max_depth': 4}
+Rank 1: Mean validation score: 0.50428 (std: 0.01433)
+Params: {'criterion': 'entropy', 'max_depth': 4}
+
+
+Features: H_WeightedMeanShots03, A_WeightedMeanShots03
+RandomizedSearchCV took 0.55 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.52007 (std: 0.01122)
+Params: {'criterion': 'entropy', 'max_depth': 2}
+Rank 1: Mean validation score: 0.52007 (std: 0.01122)
+Params: {'criterion': 'gini', 'max_depth': 2}
+Rank 1: Mean validation score: 0.52007 (std: 0.01122)
+Params: {'criterion': 'entropy', 'max_depth': 2}
+
+
+Features: H_WeightedMeanShots05, A_WeightedMeanShots05
+RandomizedSearchCV took 0.51 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.51891 (std: 0.00538)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 1: Mean validation score: 0.51891 (std: 0.00538)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 3: Mean validation score: 0.51875 (std: 0.00544)
+Params: {'criterion': 'entropy', 'max_depth': 3}
+Rank 3: Mean validation score: 0.51875 (std: 0.00544)
+Params: {'criterion': 'entropy', 'max_depth': 3}
+Rank 3: Mean validation score: 0.51875 (std: 0.00544)
+Params: {'criterion': 'entropy', 'max_depth': 3}
+
+
+Features: H_WeightedMeanShotsOnTarget03, A_WeightedMeanShotsOnTarget03
+RandomizedSearchCV took 0.52 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.51645 (std: 0.01192)
+Params: {'criterion': 'gini', 'max_depth': 7}
+Rank 2: Mean validation score: 0.51513 (std: 0.00887)
+Params: {'criterion': 'entropy', 'max_depth': 6}
+Rank 2: Mean validation score: 0.51513 (std: 0.00887)
+Params: {'criterion': 'entropy', 'max_depth': 6}
+
+
+Features: H_WeightedMeanShotsOnTarget05, A_WeightedMeanShotsOnTarget05
+RandomizedSearchCV took 0.61 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.51431 (std: 0.00838)
+Params: {'criterion': 'entropy', 'max_depth': 4}
+Rank 1: Mean validation score: 0.51431 (std: 0.00838)
+Params: {'criterion': 'entropy', 'max_depth': 4}
+Rank 3: Mean validation score: 0.51382 (std: 0.01160)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 3: Mean validation score: 0.51382 (std: 0.01160)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 3: Mean validation score: 0.51382 (std: 0.01160)
+Params: {'criterion': 'gini', 'max_depth': 3}
+Rank 3: Mean validation score: 0.51382 (std: 0.01160)
+Params: {'criterion': 'entropy', 'max_depth': 3}
+
+
+Features: H_WeightedMeanFullTimeGoals03, A_WeightedMeanFullTimeGoals03
+RandomizedSearchCV took 0.59 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.49737 (std: 0.01770)
+Params: {'criterion': 'gini', 'max_depth': 7}
+Rank 1: Mean validation score: 0.49737 (std: 0.01770)
+Params: {'criterion': 'gini', 'max_depth': 7}
+Rank 3: Mean validation score: 0.49622 (std: 0.01578)
+Params: {'criterion': 'entropy', 'max_depth': 6}
+
+
+Features: H_WeightedMeanFullTimeGoals05, A_WeightedMeanFullTimeGoals05
+RandomizedSearchCV took 0.63 seconds for 20 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.50526 (std: 0.00610)
+Params: {'criterion': 'gini', 'max_depth': 4}
+Rank 2: Mean validation score: 0.50263 (std: 0.00559)
+Params: {'criterion': 'gini', 'max_depth': 7}
+Rank 2: Mean validation score: 0.50263 (std: 0.00559)
+Params: {'criterion': 'gini', 'max_depth': 7}
+Rank 2: Mean validation score: 0.50263 (std: 0.00559)
+Params: {'criterion': 'gini', 'max_depth': 7}

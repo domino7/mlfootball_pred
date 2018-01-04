@@ -1,0 +1,428 @@
+
+
+Features: H_Speed, A_Speed
+RandomizedSearchCV took 2.80 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.47484 (std: 0.01288)
+Params: {'min_samples_split': 15, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 13}
+Rank 1: Mean validation score: 0.47484 (std: 0.01288)
+Params: {'min_samples_split': 3, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 15}
+Rank 1: Mean validation score: 0.47484 (std: 0.01288)
+Params: {'min_samples_split': 19, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 3}
+Rank 1: Mean validation score: 0.47484 (std: 0.01288)
+Params: {'min_samples_split': 11, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 4}
+Rank 1: Mean validation score: 0.47484 (std: 0.01288)
+Params: {'min_samples_split': 11, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 2}
+
+
+Features: H_Pass, A_Pass
+RandomizedSearchCV took 2.66 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.48520 (std: 0.00379)
+Params: {'min_samples_split': 11, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 6}
+Rank 1: Mean validation score: 0.48520 (std: 0.00379)
+Params: {'min_samples_split': 16, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 2}
+Rank 1: Mean validation score: 0.48520 (std: 0.00379)
+Params: {'min_samples_split': 2, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 5}
+
+
+Features: A_Shoot, H_Shoot
+RandomizedSearchCV took 2.57 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.48109 (std: 0.00771)
+Params: {'min_samples_split': 13, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 14}
+Rank 1: Mean validation score: 0.48109 (std: 0.00771)
+Params: {'min_samples_split': 4, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 16}
+Rank 1: Mean validation score: 0.48109 (std: 0.00771)
+Params: {'min_samples_split': 14, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 15}
+Rank 1: Mean validation score: 0.48109 (std: 0.00771)
+Params: {'min_samples_split': 13, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 11}
+Rank 1: Mean validation score: 0.48109 (std: 0.00771)
+Params: {'min_samples_split': 19, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 6}
+Rank 1: Mean validation score: 0.48109 (std: 0.00771)
+Params: {'min_samples_split': 18, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 8}
+Rank 1: Mean validation score: 0.48109 (std: 0.00771)
+Params: {'min_samples_split': 19, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 6}
+Rank 1: Mean validation score: 0.48109 (std: 0.00771)
+Params: {'min_samples_split': 7, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 15}
+
+
+Features: H_Pressure, A_Pressure
+RandomizedSearchCV took 2.60 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.48388 (std: 0.00937)
+Params: {'min_samples_split': 4, 'criterion': 'entropy', 'max_depth': 6, 'min_samples_leaf': 14}
+Rank 1: Mean validation score: 0.48388 (std: 0.00937)
+Params: {'min_samples_split': 6, 'criterion': 'entropy', 'max_depth': 6, 'min_samples_leaf': 14}
+Rank 1: Mean validation score: 0.48388 (std: 0.00937)
+Params: {'min_samples_split': 15, 'criterion': 'entropy', 'max_depth': 6, 'min_samples_leaf': 13}
+
+
+Features: H_chPass, A_chPass
+RandomizedSearchCV took 2.52 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.47303 (std: 0.01144)
+Params: {'min_samples_split': 9, 'criterion': 'gini', 'max_depth': 5, 'min_samples_leaf': 10}
+Rank 1: Mean validation score: 0.47303 (std: 0.01127)
+Params: {'min_samples_split': 7, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 12}
+Rank 3: Mean validation score: 0.47286 (std: 0.01137)
+Params: {'min_samples_split': 11, 'criterion': 'gini', 'max_depth': 5, 'min_samples_leaf': 11}
+Rank 3: Mean validation score: 0.47286 (std: 0.01095)
+Params: {'min_samples_split': 8, 'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 11}
+Rank 3: Mean validation score: 0.47286 (std: 0.01095)
+Params: {'min_samples_split': 2, 'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 13}
+Rank 3: Mean validation score: 0.47286 (std: 0.01095)
+Params: {'min_samples_split': 7, 'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 16}
+Rank 3: Mean validation score: 0.47286 (std: 0.01137)
+Params: {'min_samples_split': 19, 'criterion': 'gini', 'max_depth': 5, 'min_samples_leaf': 12}
+
+
+Features: H_chCross, A_chCross
+RandomizedSearchCV took 2.65 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 7, 'criterion': 'gini', 'max_depth': 1, 'min_samples_leaf': 4}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 4, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 16}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 19, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 9}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 19, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 13}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 11, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 3}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 6, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 10}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 9, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 9}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 6, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 8}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 17, 'criterion': 'gini', 'max_depth': 1, 'min_samples_leaf': 15}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 8, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 17}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 6, 'criterion': 'gini', 'max_depth': 1, 'min_samples_leaf': 10}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 10, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 17}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 17, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 12}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 5, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 5}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 6, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 19}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 18, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 2}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 7, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 14}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 3, 'criterion': 'gini', 'max_depth': 1, 'min_samples_leaf': 18}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 11, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 18}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 16, 'criterion': 'entropy', 'max_depth': 1, 'min_samples_leaf': 4}
+Rank 1: Mean validation score: 0.47747 (std: 0.00900)
+Params: {'min_samples_split': 11, 'criterion': 'gini', 'max_depth': 1, 'min_samples_leaf': 16}
+
+
+Features: H_dAggr, A_dAggr
+RandomizedSearchCV took 2.44 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.48109 (std: 0.00545)
+Params: {'min_samples_split': 13, 'criterion': 'entropy', 'max_depth': 5, 'min_samples_leaf': 18}
+Rank 2: Mean validation score: 0.48059 (std: 0.00449)
+Params: {'min_samples_split': 5, 'criterion': 'gini', 'max_depth': 6, 'min_samples_leaf': 17}
+Rank 3: Mean validation score: 0.48010 (std: 0.00472)
+Params: {'min_samples_split': 14, 'criterion': 'entropy', 'max_depth': 5, 'min_samples_leaf': 15}
+Rank 3: Mean validation score: 0.48010 (std: 0.00358)
+Params: {'min_samples_split': 12, 'criterion': 'gini', 'max_depth': 6, 'min_samples_leaf': 6}
+Rank 3: Mean validation score: 0.48010 (std: 0.00358)
+Params: {'min_samples_split': 10, 'criterion': 'gini', 'max_depth': 6, 'min_samples_leaf': 6}
+Rank 3: Mean validation score: 0.48010 (std: 0.00472)
+Params: {'min_samples_split': 12, 'criterion': 'gini', 'max_depth': 5, 'min_samples_leaf': 13}
+
+
+Features: H_dWidth, A_dWidth
+RandomizedSearchCV took 2.81 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.48109 (std: 0.01155)
+Params: {'min_samples_split': 6, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 13}
+Rank 1: Mean validation score: 0.48109 (std: 0.01155)
+Params: {'min_samples_split': 19, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 12}
+Rank 1: Mean validation score: 0.48109 (std: 0.01155)
+Params: {'min_samples_split': 11, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 12}
+
+
+Features: H_age, A_age
+RandomizedSearchCV took 2.97 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.47500 (std: 0.00769)
+Params: {'min_samples_split': 13, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 10}
+Rank 1: Mean validation score: 0.47500 (std: 0.00769)
+Params: {'min_samples_split': 3, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 18}
+Rank 1: Mean validation score: 0.47500 (std: 0.00769)
+Params: {'min_samples_split': 19, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 12}
+Rank 1: Mean validation score: 0.47500 (std: 0.00769)
+Params: {'min_samples_split': 8, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 2}
+Rank 1: Mean validation score: 0.47500 (std: 0.00769)
+Params: {'min_samples_split': 11, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 6}
+Rank 1: Mean validation score: 0.47500 (std: 0.00769)
+Params: {'min_samples_split': 17, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 15}
+
+
+Features: H_TMV, A_TMV
+RandomizedSearchCV took 3.35 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.53553 (std: 0.01122)
+Params: {'min_samples_split': 8, 'criterion': 'entropy', 'max_depth': 6, 'min_samples_leaf': 10}
+Rank 2: Mean validation score: 0.53536 (std: 0.01105)
+Params: {'min_samples_split': 8, 'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 7}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 10, 'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 7}
+Rank 3: Mean validation score: 0.53520 (std: 0.01041)
+Params: {'min_samples_split': 7, 'criterion': 'entropy', 'max_depth': 5, 'min_samples_leaf': 10}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 10, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 14}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 8, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 2}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 6, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 11}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 14, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 2}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 6, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 3}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 9, 'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 7}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 2, 'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 18}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 4, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 16}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 8, 'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 18}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 13, 'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 5}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 10, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 8}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 3, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 4}
+Rank 3: Mean validation score: 0.53520 (std: 0.01133)
+Params: {'min_samples_split': 6, 'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 8}
+
+
+Features: H_Form03, A_Form03
+RandomizedSearchCV took 2.48 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.47697 (std: 0.00643)
+Params: {'min_samples_split': 15, 'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 17}
+Rank 2: Mean validation score: 0.47648 (std: 0.00651)
+Params: {'min_samples_split': 18, 'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 14}
+Rank 3: Mean validation score: 0.47632 (std: 0.00659)
+Params: {'min_samples_split': 15, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 14}
+
+
+Features: H_Form05, A_Form05
+RandomizedSearchCV took 2.58 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.49885 (std: 0.01273)
+Params: {'min_samples_split': 12, 'criterion': 'entropy', 'max_depth': 8, 'min_samples_leaf': 19}
+Rank 2: Mean validation score: 0.49868 (std: 0.01506)
+Params: {'min_samples_split': 7, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 16}
+Rank 2: Mean validation score: 0.49868 (std: 0.01506)
+Params: {'min_samples_split': 9, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 10}
+Rank 2: Mean validation score: 0.49868 (std: 0.01506)
+Params: {'min_samples_split': 7, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 6}
+Rank 2: Mean validation score: 0.49868 (std: 0.01506)
+Params: {'min_samples_split': 4, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 2}
+Rank 2: Mean validation score: 0.49868 (std: 0.01506)
+Params: {'min_samples_split': 14, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 12}
+Rank 2: Mean validation score: 0.49868 (std: 0.01506)
+Params: {'min_samples_split': 9, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 18}
+Rank 2: Mean validation score: 0.49868 (std: 0.01277)
+Params: {'min_samples_split': 8, 'criterion': 'entropy', 'max_depth': 8, 'min_samples_leaf': 18}
+Rank 2: Mean validation score: 0.49868 (std: 0.01506)
+Params: {'min_samples_split': 5, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 18}
+Rank 2: Mean validation score: 0.49868 (std: 0.01506)
+Params: {'min_samples_split': 17, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 16}
+Rank 2: Mean validation score: 0.49868 (std: 0.01506)
+Params: {'min_samples_split': 2, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 7}
+Rank 2: Mean validation score: 0.49868 (std: 0.01506)
+Params: {'min_samples_split': 2, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 5}
+
+
+Features: H_MeanShots03, A_MeanShots03
+RandomizedSearchCV took 2.73 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 3, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 14}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 16, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 11}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 10, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 12}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 4, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 15}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 2, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 15}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 6, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 7}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 6, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 11}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 9, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 11}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 7, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 3}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 4, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 4}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 11, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 13}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 4, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 17}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 3, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 19}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 3, 'criterion': 'gini', 'max_depth': 2, 'min_samples_leaf': 13}
+Rank 1: Mean validation score: 0.52138 (std: 0.00866)
+Params: {'min_samples_split': 11, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 19}
+
+
+Features: H_MeanShots05, A_MeanShots05
+RandomizedSearchCV took 2.59 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.51414 (std: 0.01050)
+Params: {'min_samples_split': 10, 'criterion': 'entropy', 'max_depth': 5, 'min_samples_leaf': 4}
+Rank 1: Mean validation score: 0.51414 (std: 0.01050)
+Params: {'min_samples_split': 9, 'criterion': 'entropy', 'max_depth': 5, 'min_samples_leaf': 2}
+Rank 1: Mean validation score: 0.51414 (std: 0.01050)
+Params: {'min_samples_split': 14, 'criterion': 'entropy', 'max_depth': 5, 'min_samples_leaf': 3}
+Rank 1: Mean validation score: 0.51414 (std: 0.01050)
+Params: {'min_samples_split': 11, 'criterion': 'entropy', 'max_depth': 5, 'min_samples_leaf': 6}
+Rank 1: Mean validation score: 0.51414 (std: 0.01050)
+Params: {'min_samples_split': 6, 'criterion': 'entropy', 'max_depth': 5, 'min_samples_leaf': 5}
+Rank 1: Mean validation score: 0.51414 (std: 0.01050)
+Params: {'min_samples_split': 4, 'criterion': 'entropy', 'max_depth': 5, 'min_samples_leaf': 5}
+
+
+Features: H_MeanShotsOnTarget03, A_MeanShotsOnTarget03
+RandomizedSearchCV took 2.70 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.51184 (std: 0.01554)
+Params: {'min_samples_split': 2, 'criterion': 'gini', 'max_depth': 5, 'min_samples_leaf': 19}
+Rank 1: Mean validation score: 0.51184 (std: 0.01554)
+Params: {'min_samples_split': 12, 'criterion': 'entropy', 'max_depth': 5, 'min_samples_leaf': 18}
+Rank 3: Mean validation score: 0.51168 (std: 0.01553)
+Params: {'min_samples_split': 2, 'criterion': 'entropy', 'max_depth': 5, 'min_samples_leaf': 16}
+
+
+Features: H_MeanShotsOnTarget05, A_MeanShotsOnTarget05
+RandomizedSearchCV took 2.82 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.51694 (std: 0.00455)
+Params: {'min_samples_split': 13, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 10}
+Rank 2: Mean validation score: 0.51628 (std: 0.00384)
+Params: {'min_samples_split': 18, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 19}
+Rank 2: Mean validation score: 0.51628 (std: 0.00384)
+Params: {'min_samples_split': 4, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 16}
+Rank 2: Mean validation score: 0.51628 (std: 0.00384)
+Params: {'min_samples_split': 10, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 18}
+
+
+Features: H_MeanFullTimeGoals03, A_MeanFullTimeGoals03
+RandomizedSearchCV took 2.25 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.49490 (std: 0.00394)
+Params: {'min_samples_split': 16, 'criterion': 'entropy', 'max_depth': 8, 'min_samples_leaf': 5}
+Rank 1: Mean validation score: 0.49490 (std: 0.00394)
+Params: {'min_samples_split': 17, 'criterion': 'entropy', 'max_depth': 8, 'min_samples_leaf': 4}
+Rank 3: Mean validation score: 0.49424 (std: 0.00474)
+Params: {'min_samples_split': 11, 'criterion': 'entropy', 'max_depth': 8, 'min_samples_leaf': 14}
+Rank 3: Mean validation score: 0.49424 (std: 0.00438)
+Params: {'min_samples_split': 19, 'criterion': 'entropy', 'max_depth': 8, 'min_samples_leaf': 11}
+Rank 3: Mean validation score: 0.49424 (std: 0.00438)
+Params: {'min_samples_split': 8, 'criterion': 'entropy', 'max_depth': 8, 'min_samples_leaf': 11}
+
+
+Features: H_MeanFullTimeGoals05, A_MeanFullTimeGoals05
+RandomizedSearchCV took 2.54 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.50395 (std: 0.01340)
+Params: {'min_samples_split': 8, 'criterion': 'gini', 'max_depth': 6, 'min_samples_leaf': 6}
+Rank 2: Mean validation score: 0.50378 (std: 0.01393)
+Params: {'min_samples_split': 18, 'criterion': 'gini', 'max_depth': 6, 'min_samples_leaf': 15}
+Rank 2: Mean validation score: 0.50378 (std: 0.01333)
+Params: {'min_samples_split': 11, 'criterion': 'gini', 'max_depth': 6, 'min_samples_leaf': 10}
+
+
+Features: H_WeightedMeanShots03, A_WeightedMeanShots03
+RandomizedSearchCV took 2.72 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.52056 (std: 0.00538)
+Params: {'min_samples_split': 3, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 19}
+Rank 2: Mean validation score: 0.51990 (std: 0.00585)
+Params: {'min_samples_split': 15, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 17}
+Rank 3: Mean validation score: 0.51941 (std: 0.00707)
+Params: {'min_samples_split': 9, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 9}
+Rank 3: Mean validation score: 0.51941 (std: 0.00707)
+Params: {'min_samples_split': 18, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 10}
+
+
+Features: H_WeightedMeanShots05, A_WeightedMeanShots05
+RandomizedSearchCV took 2.93 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.51809 (std: 0.00922)
+Params: {'min_samples_split': 5, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 3}
+Rank 1: Mean validation score: 0.51809 (std: 0.00922)
+Params: {'min_samples_split': 7, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 5}
+Rank 1: Mean validation score: 0.51809 (std: 0.00922)
+Params: {'min_samples_split': 5, 'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 5}
+
+
+Features: H_WeightedMeanShotsOnTarget03, A_WeightedMeanShotsOnTarget03
+RandomizedSearchCV took 2.72 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.51842 (std: 0.00588)
+Params: {'min_samples_split': 13, 'criterion': 'entropy', 'max_depth': 7, 'min_samples_leaf': 8}
+Rank 2: Mean validation score: 0.51727 (std: 0.00588)
+Params: {'min_samples_split': 4, 'criterion': 'entropy', 'max_depth': 7, 'min_samples_leaf': 7}
+Rank 2: Mean validation score: 0.51727 (std: 0.00588)
+Params: {'min_samples_split': 11, 'criterion': 'entropy', 'max_depth': 7, 'min_samples_leaf': 7}
+Rank 2: Mean validation score: 0.51727 (std: 0.00588)
+Params: {'min_samples_split': 12, 'criterion': 'entropy', 'max_depth': 7, 'min_samples_leaf': 7}
+
+
+Features: H_WeightedMeanShotsOnTarget05, A_WeightedMeanShotsOnTarget05
+RandomizedSearchCV took 2.62 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.51447 (std: 0.00891)
+Params: {'min_samples_split': 9, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 15}
+Rank 1: Mean validation score: 0.51447 (std: 0.00891)
+Params: {'min_samples_split': 11, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 16}
+Rank 3: Mean validation score: 0.51414 (std: 0.00883)
+Params: {'min_samples_split': 4, 'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 10}
+
+
+Features: H_WeightedMeanFullTimeGoals03, A_WeightedMeanFullTimeGoals03
+RandomizedSearchCV took 2.41 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.49638 (std: 0.01523)
+Params: {'min_samples_split': 4, 'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 6}
+Rank 2: Mean validation score: 0.49622 (std: 0.01506)
+Params: {'min_samples_split': 4, 'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 7}
+Rank 2: Mean validation score: 0.49622 (std: 0.01506)
+Params: {'min_samples_split': 10, 'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 14}
+
+
+Features: H_WeightedMeanFullTimeGoals05, A_WeightedMeanFullTimeGoals05
+RandomizedSearchCV took 2.58 seconds for 100 candidates parameter settings.
+
+Rank 1: Mean validation score: 0.51020 (std: 0.01114)
+Params: {'min_samples_split': 10, 'criterion': 'gini', 'max_depth': 6, 'min_samples_leaf': 11}
+Rank 2: Mean validation score: 0.50921 (std: 0.01449)
+Params: {'min_samples_split': 4, 'criterion': 'entropy', 'max_depth': 6, 'min_samples_leaf': 5}
+Rank 3: Mean validation score: 0.50888 (std: 0.01555)
+Params: {'min_samples_split': 18, 'criterion': 'entropy', 'max_depth': 6, 'min_samples_leaf': 9}
+Rank 3: Mean validation score: 0.50888 (std: 0.01555)
+Params: {'min_samples_split': 10, 'criterion': 'entropy', 'max_depth': 6, 'min_samples_leaf': 9}
+Rank 3: Mean validation score: 0.50888 (std: 0.00614)
+Params: {'min_samples_split': 19, 'criterion': 'gini', 'max_depth': 5, 'min_samples_leaf': 8}
+Rank 3: Mean validation score: 0.50888 (std: 0.00614)
+Params: {'min_samples_split': 13, 'criterion': 'gini', 'max_depth': 5, 'min_samples_leaf': 8}
+Rank 3: Mean validation score: 0.50888 (std: 0.00614)
+Params: {'min_samples_split': 18, 'criterion': 'gini', 'max_depth': 5, 'min_samples_leaf': 5}
