@@ -54,4 +54,6 @@ venv.bak/
 tf_env
 tf_env_2.7
 
+.idea/
+
 
